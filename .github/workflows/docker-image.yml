@@ -21,7 +21,7 @@ jobs:
       env:
         DOCKER_USER: ${{ secrets.DOCKER_USER }}
         DOCKER_PAWSWORD: ${{ secrets.DOCKER_PAWSWORD }}
-      run:  |
+      run: |
         echo  "iniciando login"
         docker login -u $DOCKER_USER -p $DOCKER_PAWSWORD
         echo  "finalaar de login"
