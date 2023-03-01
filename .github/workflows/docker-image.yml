@@ -24,7 +24,7 @@ jobs:
       run:  |
         echo  "iniciando login"
         docker login -u $DOCKER_USER -p $DOCKER_PAWSWORD
-        echo  "final de login"
+        echo  "finalaar de login"
         
         
 #    - name: Build the Docker image
